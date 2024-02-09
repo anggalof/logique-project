@@ -1,0 +1,46 @@
+.bg {
+  width: 100%;
+  height: 680px;
+  padding: 256px 30px 26px;
+  background-image: linear-gradient(153deg, #712bda, #a45deb 100%);
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  img.logo {
+    width: 72.2px;
+    height: 83.8px;
+    object-fit: contain;
+  }
+}
+.rectangle {
+  width: 280px;
+  height: 40px;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #64748b;
+  position: absolute;
+  bottom: 8.5rem;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid #fff;
+}
+.rectangle-search {
+  width: 280px;
+  height: 40px;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  bottom: 3rem;
+  cursor: pointer;
+
+  .search-title {
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+}
